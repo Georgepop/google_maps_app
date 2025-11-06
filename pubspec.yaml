@@ -1,0 +1,24 @@
+name: flutter_maps_search_v3
+description: Flutter app with Google Maps, inline autocomplete search, tap-to-place marker, safe location detection, and stylized marker.
+publish_to: 'none'
+version: 1.0.0+3
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+  geolocator: ^9.0.2
+  permission_handler: ^10.2.0
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/marker.png
