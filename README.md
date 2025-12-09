@@ -1,15 +1,18 @@
-Maps Search v3 - updates:
+## Feature Updates on the `Maps-Search-v3`:
 - No auto-zoom on search/tap (keeps current zoom)
 - Safe location detection (timeouts and permission checks)
 - Stylized flat blue marker at assets/marker.png
 - Works on Web / Android / iOS
 - API key inserted (you provided it)
 
-How to run:
-1. flutter pub get
-2. flutter run -d chrome   # web
-3. flutter run -d <device> # Android/iOS
+## How to run:
+a). flutter pub get
+b). flutter run -d chrome   # web
+c). flutter run -d <device> # Android/iOS
 
 iOS note: add API key initialization in AppDelegate (GMSServices.provideAPIKey and GMSPlacesClient.provideAPIKey)
 
 Security note: Autocomplete and details calls are client-side; consider proxying or restricting API key for production.
+
+Reference(s):
+[Google-AI Tech Updates](https://blog.google/technology/ai/google-ai-updates-november-2025/)
