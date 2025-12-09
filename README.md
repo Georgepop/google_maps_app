@@ -6,11 +6,11 @@
 - API key inserted (you provided it)
 
 ## How to run:
-a). flutter pub get
+- `flutter pub get`
 
-b). flutter run -d chrome  (for web-based)
+- `flutter run -d chrome`  (for web-based)
 
-c). flutter run -d <device> (for Android/iOS-based)
+- `flutter run -d <device>` (for Android/iOS-based)
 
 iOS note: add API key initialization in AppDelegate (GMSServices.provideAPIKey and GMSPlacesClient.provideAPIKey)
 
