@@ -15,4 +15,5 @@ iOS note: add API key initialization in AppDelegate (GMSServices.provideAPIKey a
 Security note: Autocomplete and details calls are client-side; consider proxying or restricting API key for production.
 
 Reference(s):
+
 [Google-AI Tech Updates](https://blog.google/technology/ai/google-ai-updates-november-2025/)
