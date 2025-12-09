@@ -7,8 +7,10 @@
 
 ## How to run:
 a). flutter pub get
-b). flutter run -d chrome   # web
-c). flutter run -d <device> # Android/iOS
+
+b). flutter run -d chrome  (for web-based)
+
+c). flutter run -d <device> (for Android/iOS-based)
 
 iOS note: add API key initialization in AppDelegate (GMSServices.provideAPIKey and GMSPlacesClient.provideAPIKey)
 
